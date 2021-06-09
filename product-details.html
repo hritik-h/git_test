@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="photos/Sirlver_Logo_on_Beige_Wall_Mockup.jpg" width="125px">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Account</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="small-container single-product">
+      <div class="row">
+            <div class="col-2">
+                <img src="photos/71vFKBpKakL._AC_SX522_.jpg" width="100%" id="product-img">
+
+                <div class="small-img-row">
+                    <div class="small-img-column">
+                        <img src="photos/81HZAfCGZ5L._AC_SL1500_.jpg" alt="" class="small-img">
+                    </div>
+                    <div class="small-img-column">
+                        <img src="photos/71vFKBpKakL._AC_SX522_.jpg" alt="" class="small-img">
+                    </div>
+                    <div class="small-img-column">
+                        <img src="photos/accessories_hero__f6m4j96qhje6_large.png" alt="" class="small-img">
+                    </div>
+                    <div class="small-img-column">
+                        <img src="photos/AMZ_FamiyStripe_iPhone_12ProMax._FMwebp_.png" alt="" class="small-img">
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <p>Home / Iphone</p>
+                <h1>first Phone</h1>
+                <h4>$1000</h4>
+                <select >
+                    <option >Color</option>
+                    <option >White</option>
+                    <option >Black</option>
+                    <option >blue</option>
+                </select>
+                <select >
+                    <option >Varient</option>
+                    <option >Var 1</option>
+                    <option >Var 2</option>
+                    <option >Var 3</option>
+                </select>
+                <a href="" class="btn">Buy</a>
+                <h3>Produt Details</h3>
+                <p>MacBook Pro — our most powerful notebooks featuring fast processors, incredible graphics, Touch Bar, and a spectacular Retina display.
+                </p>
+            </div>
+        </div>
+
+        <div class="small-container">
+            <h2 class="title">Featured Products</h2>
+            <div class="row">
+                <div class="col4">
+                    <img src="photos/71vFKBpKakL._AC_SX522_.jpg" >
+                    <h4>Macbook pro</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-o"></i>
+                    </div>
+                    <p>$1500.99</p>
+                </div>
+                <div class="col4">
+                    <img src="photos/accessories_1__fv0lxkrw8n22_large.png" >
+                    <h4>Ipad Pro</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-o"></i>
+                    </div>
+                    <p>$1300.99</p>
+                </div>
+                <div class="col4">
+                    <img src="photos/AMZ_FamiyStripe_iPhone_12ProMax._FMwebp_.png" >
+                    <h4>Iphone 12 pro max</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-o"></i>
+                    </div>
+                    <p>$1200.99</p>
+                </div>
+                <div class="col4">
+                    <img src="photos/iPhone_12_Pro_Max_240x160._CB418670429_._FMwebp_.png" >
+                    <h4>Iphone 12 pro max</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-o"></i>
+                    </div>
+                    <p>$1200.99</p>
+                </div>
+            </div>
+        
+    </div>
+</body>
+<script>
+    var product = document.getElementById("product-img");
+    var smallImg = document.getElementsByClassName("small-img");
+    smallImg
+    smallImg[0].onclick = function(){
+        product.src = smallImg[0].src;
+    }
+    smallImg[1].onclick = function(){
+        product.src = smallImg[1].src;
+    }
+    smallImg[2].onclick = function(){
+        product.src = smallImg[2].src;
+    }
+    smallImg[3].onclick = function(){
+        product.src = smallImg[3].src;
+    }
+</script>
+</html>

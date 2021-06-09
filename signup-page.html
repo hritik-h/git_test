@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+<body>
+<div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="photos/Sirlver_Logo_on_Beige_Wall_Mockup.jpg" width="125px">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Account</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="signup-page">
+            <div class="container">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="photos/doge.png" width="100%";>
+                    </div>
+                    <div class="col-2">
+                        <div class="form-container">
+                            <div class="form-btn">
+                                <span onclick="login()">Login</span>
+                                <span onclick="register()">Register</span>
+                                <hr id="indicator">
+                            </div>
+                            <form action="" id="login-form">
+                                <input type="text" placeholder="Username">
+                                <input type="password" placeholder="password">
+                                <button type="submit" class="btn">Login</button>
+                                <a href="">Forgot Password</a>
+                            </form>
+                            <form action="" id="reg-form">
+                                <input type="text" placeholder="Username">
+                                <input type="email" placeholder="Email">
+                                <input type="password" placeholder="password">
+                                <button type="submit" class="btn">Register</button>
+                                <a href="">Forgot Password</a>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+  
+</body>
+
+<script>
+    var loginform = document.getElementById("login-form");
+    var regForm = document.getElementById("reg-form");
+    var indicator = document.getElementById("indicator");
+    function register(){
+        regForm.style.transform= "translateX(0px)";
+        loginform.style.transform= "translateX(0px)";
+        indicator.style.transform= "translateX(100px)";
+    }
+    function login(){
+        regForm.style.transform= "translateX(300px)";
+        loginform.style.transform= "translateX(300px)";
+        indicator.style.transform= "translateX(0px)";
+    }
+</script>
+</html>

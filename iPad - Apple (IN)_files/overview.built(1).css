@@ -1,0 +1,1274 @@
+.available-copy {
+    color:#666;
+}
+
+/*Fixed layout compare and icloud section*/
+ 
+ 
+.section-ipados .image-ipados {
+    background-image: url("/in/ipad/home/images/overview/ipad_os_banner__bhlob0bn3rg2_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
+    .section-ipados .image-ipados {
+        background-image: url("/in/ipad/home/images/overview/ipad_os_banner__bhlob0bn3rg2_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-ipados .image-ipados {
+        background-image: url("/in/ipad/home/images/overview/ipad_os_banner__bhlob0bn3rg2_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-ipados .image-ipados {
+        background-image: url("/in/ipad/home/images/overview/ipad_os_banner__bhlob0bn3rg2_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .section-ipados .image-ipados {
+        background-image: url("/in/ipad/home/images/overview/ipad_os_banner__bhlob0bn3rg2_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+    .section-ipados .image-ipados {
+        background-image: url("/in/ipad/home/images/overview/ipad_os_banner__bhlob0bn3rg2_small_2x.jpg")
+    }
+}
+ 
+  .fp-tile.promo-tile.icloud.fp-tile-2:nth-child(2n+1) , .fp-tile.promo-tile.compare, .hg-fixed-airpods-column.fp-tile-2:nth-child(2n+1)  {
+    width: 100%;
+    margin: 0;
+    max-width: initial;
+}
+
+@media only screen and (max-width: 735px) {
+    .fp-tile.promo-tile.icloud.fp-tile-2:nth-child(2n+1) , .fp-tile.promo-tile.compare, .hg-fixed-airpods-column.fp-tile-2:nth-child(2n+1)  {
+        width: auto;
+        margin: 0;
+    }
+}
+
+/*icloud*/
+@media only screen and (min-width: 1069px) {
+    .section-ios .icloud .promo-image {
+        left: 0%;
+        margin-left: 50px;
+        margin-top: 63px;
+        margin-bottom: 63px;
+    }
+}
+
+@media only screen and (min-width: 736px) and (max-width: 1068px) {
+    .section-ios .icloud .promo-image {
+        left: 16%;
+        margin-left: 0px;
+        margin-top: 33px;
+        margin-bottom: 63px;
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .section-ios .icloud .promo-image {
+        left: 50%;
+        margin-left: -140.5px;
+    }
+}
+
+@media only screen and (min-width: 1069px) {
+    .section-ios .promo-tile.icloud .promo-copy {
+        padding-top: 140px;
+        padding-left: 160px;
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+    .section-ios .promo-tile.icloud .promo-copy {
+        padding-left: 0px;
+    }
+}
+
+@media only screen and (min-width: 736px) and (max-width: 1068px) {
+    .section-ios .promo-tile.icloud .promo-copy {
+        padding-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .section-ios .promo-tile.icloud .promo-copy {
+        padding-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .section-ios .promo-tile.icloud .promo-copy {
+        padding-top: 35px;
+    }
+}
+
+@media only screen and (min-width: 1069px) {
+    .section-get-more {
+        padding-top: 120px;
+    }
+}
+/*End icloud*/
+
+/*compare*/
+@media only screen and (min-width: 1069px) {
+    .section-promos .compare .promo-image {
+        left: 0%;
+        margin-left: 0px;
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+
+    .promo-section .promo-tile.compare .promo-copy {
+        padding-top: 160px;
+        padding-left: 0px;
+    }
+}
+
+@media only screen and (min-width: 736px) and (max-width: 1068px) {
+    .section-promos .compare .promo-image {
+        left: 50%;
+        margin-left: -160px;
+    }
+
+    .promo-section .promo-tile.compare .promo-copy {
+        padding-top: 130px;
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .promo-section .promo-tile.compare .promo-copy {
+        padding-top: 35px;
+    }
+}
+ /*end compare*/
+
+@media only screen and (min-width: 1069px) {
+    .section-get-more {
+        padding-top: 120px;
+    }
+}
+
+
+/*COMPARE TILE IPAD MINI*/
+
+.promo-section .airpods .banner-airpods {
+  height: 400px;
+}
+
+@media only screen and (max-width: 735px) {
+  .promo-section .airpods .banner-airpods {
+    height: auto;
+  }
+}
+
+.promo-section .airpods .promo-copy-wrapper.full-height {
+    height: 100%;
+}
+
+.promo-section .airpods .banner-promo {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.promo-section .airpods .banner-promo .promo-copy-alt {
+  position: relative;
+  z-index: 2;
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-essentials .airpods.tilt .promo-image {
+    left: 50%;
+    margin-left: -240px;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-essentials .airpods.tilt .promo-image {
+    left: 50%;
+    position: relative;
+    margin-left: -255px;
+    margin-top: 10px;
+  }
+}
+
+
+.section-ipad-97 .image-hero-ipad-97
+{
+    background-image: url("/in/ipad/images/overview/ipad__bj8z4pfznqnm_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)
+{
+    .section-ipad-97 .image-hero-ipad-97 { background-image: url("/in/ipad/images/overview/ipad__bj8z4pfznqnm_large_2x.jpg"); }
+}
+
+@media only screen and (max-width: 1068px)
+{
+    .section-ipad-97 .image-hero-ipad-97
+    {
+        background-image: url("/in/ipad/images/overview/ipad__bj8z4pfznqnm_medium.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi)
+{
+    .section-ipad-97 .image-hero-ipad-97 { background-image: url("/in/ipad/images/overview/ipad__bj8z4pfznqnm_medium_2x.jpg"); }
+}
+
+@media only screen and (max-width: 735px)
+{
+    .section-ipad-97 .image-hero-ipad-97
+    {
+        background-image: url("/in/ipad/images/overview/ipad__bj8z4pfznqnm_small.jpg");
+    }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi)
+{
+    .section-ipad-97 .image-hero-ipad-97 { background-image: url("/in/ipad/images/overview/ipad__bj8z4pfznqnm_small_2x.jpg"); }
+}
+
+
+
+.section-ios .ios12 .promo-image
+{
+    background-image: url("/in/ipad/images/overview/ios_12__d6lf3qvcvyaa_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)
+{
+    .section-ios .ios12 .promo-image { background-image: url("/in/ipad/images/overview/ios_12__d6lf3qvcvyaa_large_2x.jpg"); }
+}
+
+@media only screen and (max-width: 1068px)
+{
+    .section-ios .ios12 .promo-image
+    {
+        background-image: url("/in/ipad/images/overview/ios_12__d6lf3qvcvyaa_medium.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi)
+{
+    .section-ios .ios12 .promo-image { background-image: url("/in/ipad/images/overview/ios_12__d6lf3qvcvyaa_medium_2x.jpg"); }
+}
+
+@media only screen and (max-width: 735px)
+{
+    .section-ios .ios12 .promo-image
+    {
+        background-image: url("/in/ipad/images/overview/ios_12__d6lf3qvcvyaa_small.jpg");
+    }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi)
+{
+    .section-ios .ios12 .promo-image { background-image: url("/in/ipad/images/overview/ios_12__d6lf3qvcvyaa_small_2x.jpg"); }
+}
+
+.section-ios .ar
+{
+    background-image: url("/in/ipad/images/overview/augmented_reality__d4uv71pltemq_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)
+{
+    .section-ios .ar { background-image: url("/in/ipad/images/overview/augmented_reality__d4uv71pltemq_large_2x.jpg"); }
+}
+
+@media only screen and (max-width: 1068px)
+{
+    .section-ios .ar
+    {
+        background-image: url("/in/ipad/images/overview/augmented_reality__d4uv71pltemq_medium.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi)
+{
+    .section-ios .ar { background-image: url("/in/ipad/images/overview/augmented_reality__d4uv71pltemq_medium_2x.jpg"); }
+}
+
+@media only screen and (max-width: 735px)
+{
+    .section-ios .ar
+    {
+        background-image: url("/in/ipad/images/overview/augmented_reality__d4uv71pltemq_small.jpg");
+    }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi)
+{
+    .section-ios .ar { background-image: url("/in/ipad/images/overview/augmented_reality__d4uv71pltemq_small_2x.jpg"); }
+}
+
+.section-get-more .new-way .promo-image-wrapper .promo-image
+{
+    background-image: url("/in/ipad/images/overview/everything_on_ipadpro__f7nzb3m95ey6_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)
+{
+    .section-get-more .new-way .promo-image-wrapper .promo-image { background-image: url("/in/ipad/images/overview/everything_on_ipadpro__f7nzb3m95ey6_large_2x.jpg"); }
+}
+
+@media only screen and (max-width: 1068px)
+{
+    .section-get-more .new-way .promo-image-wrapper .promo-image
+    {
+        background-image: url("/in/ipad/images/overview/everything_on_ipadpro__f7nzb3m95ey6_medium.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi)
+{
+    .section-get-more .new-way .promo-image-wrapper .promo-image { background-image: url("/in/ipad/images/overview/everything_on_ipadpro__f7nzb3m95ey6_medium_2x.jpg"); }
+}
+
+@media only screen and (max-width: 735px)
+{
+    .section-get-more .new-way .promo-image-wrapper .promo-image
+    {
+        background-image: url("/in/ipad/images/overview/everything_on_ipadpro__f7nzb3m95ey6_small.jpg");
+    }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi)
+{
+    .section-get-more .new-way .promo-image-wrapper .promo-image { background-image: url("/in/ipad/images/overview/everything_on_ipadpro__f7nzb3m95ey6_small_2x.jpg"); }
+}
+
+.section-get-more .clips .promo-image
+{
+    background-image: url("/in/ipad/images/overview/clips__bny8o84vz3ea_large.png");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)
+{
+    .section-get-more .clips .promo-image { background-image: url("/in/ipad/images/overview/clips__bny8o84vz3ea_large_2x.png"); }
+}
+
+@media only screen and (max-width: 1068px)
+{
+    .section-get-more .clips .promo-image
+    {
+        background-image: url("/in/ipad/images/overview/clips__bny8o84vz3ea_medium.png");
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi)
+{
+    .section-get-more .clips .promo-image { background-image: url("/in/ipad/images/overview/clips__bny8o84vz3ea_medium_2x.png"); }
+}
+
+@media only screen and (max-width: 735px)
+{
+    .section-get-more .clips .promo-image
+    {
+        background-image: url("/in/ipad/images/overview/clips__bny8o84vz3ea_small.png");
+    }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi)
+{
+    .section-get-more .clips .promo-image { background-image: url("/in/ipad/images/overview/clips__bny8o84vz3ea_small_2x.png"); }
+}
+
+.section-get-more .swift
+{
+    background-image: url("/in/ipad/images/overview/swift_playgrounds__e49hno2ddr42_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)
+{
+    .section-get-more .swift { background-image: url("/in/ipad/images/overview/swift_playgrounds__e49hno2ddr42_large_2x.jpg"); }
+}
+
+@media only screen and (max-width: 1068px)
+{
+    .section-get-more .swift
+    {
+        background-image: url("/in/ipad/images/overview/swift_playgrounds__e49hno2ddr42_medium.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi)
+{
+    .section-get-more .swift { background-image: url("/in/ipad/images/overview/swift_playgrounds__e49hno2ddr42_medium_2x.jpg"); }
+}
+
+@media only screen and (max-width: 735px)
+{
+    .section-get-more .swift
+    {
+        background-image: url("/in/ipad/images/overview/swift_playgrounds__e49hno2ddr42_small.jpg");
+    }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi)
+{
+    .section-get-more .swift { background-image: url("/in/ipad/images/overview/swift_playgrounds__e49hno2ddr42_small_2x.jpg"); }
+}
+
+
+.section-get-more .new-way .promo-image-wrapper .promo-image
+{
+    background-image: url("/in/ipad/images/overview/everything_on_ipadpro__f7nzb3m95ey6_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)
+{
+    .section-get-more .new-way .promo-image-wrapper .promo-image { background-image: url("/in/ipad/images/overview/everything_on_ipadpro__f7nzb3m95ey6_large_2x.jpg"); }
+}
+
+@media only screen and (max-width: 1068px)
+{
+    .section-get-more .new-way .promo-image-wrapper .promo-image
+    {
+        background-image: url("/in/ipad/images/overview/everything_on_ipadpro__f7nzb3m95ey6_medium.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi)
+{
+    .section-get-more .new-way .promo-image-wrapper .promo-image { background-image: url("/in/ipad/images/overview/everything_on_ipadpro__f7nzb3m95ey6_medium_2x.jpg"); }
+}
+
+@media only screen and (max-width: 735px)
+{
+    .section-get-more .new-way .promo-image-wrapper .promo-image
+    {
+        background-image: url("/in/ipad/images/overview/everything_on_ipadpro__f7nzb3m95ey6_small.jpg");
+    }
+}
+.section-get-more .clips .promo-image
+{
+    background-image: url("/in/ipad/images/overview/clips__bny8o84vz3ea_large.png");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)
+{
+    .section-get-more .clips .promo-image { background-image: url("/in/ipad/images/overview/clips__bny8o84vz3ea_large_2x.png"); }
+}
+
+@media only screen and (max-width: 1068px)
+{
+    .section-get-more .clips .promo-image
+    {
+        background-image: url("/in/ipad/images/overview/clips__bny8o84vz3ea_medium.png");
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi)
+{
+    .section-get-more .clips .promo-image { background-image: url("/in/ipad/images/overview/clips__bny8o84vz3ea_medium_2x.png"); }
+}
+
+@media only screen and (max-width: 735px)
+{
+    .section-get-more .clips .promo-image
+    {
+        background-image: url("/in/ipad/images/overview/clips__bny8o84vz3ea_small.png");
+    }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi)
+{
+    .section-get-more .clips .promo-image { background-image: url("/in/ipad/images/overview/clips__bny8o84vz3ea_small_2x.png"); }
+}
+
+.section-get-more .swift
+{
+    background-image: url("/in/ipad/images/overview/swift_playgrounds__e49hno2ddr42_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi)
+{
+    .section-get-more .swift { background-image: url("/in/ipad/images/overview/swift_playgrounds__e49hno2ddr42_large_2x.jpg"); }
+}
+
+@media only screen and (max-width: 1068px)
+{
+    .section-get-more .swift
+    {
+        background-image: url("/in/ipad/images/overview/swift_playgrounds__e49hno2ddr42_medium.jpg");
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi)
+{
+    .section-get-more .swift { background-image: url("/in/ipad/images/overview/swift_playgrounds__e49hno2ddr42_medium_2x.jpg"); }
+}
+
+@media only screen and (max-width: 735px)
+{
+    .section-get-more .swift
+    {
+        background-image: url("/in/ipad/images/overview/swift_playgrounds__e49hno2ddr42_small.jpg");
+    }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi)
+{
+    .section-get-more .swift { background-image: url("/in/ipad/images/overview/swift_playgrounds__e49hno2ddr42_small_2x.jpg"); }
+}
+
+
+.section-promo-tiles .promo-container {
+	margin: 0 auto;
+	max-width: 1440px;
+	margin-top: 2.08333%;
+}
+
+@media only screen and (max-width: 1068px)
+{
+	.section-promo-tiles .promo-container { margin-top: 2.34082%; }
+}
+
+/* updates */
+
+.section-ipados .icloud .promo-image {
+    background-image: url("/in/ipad/home/images/overview/icloud__dkgx54q92hg2_large.jpg");
+    float: none;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .section-ipados .icloud .promo-image {
+        background-image:url("/in/ipad/home/images/overview/icloud__dkgx54q92hg2_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-ipados .icloud .promo-image {
+        background-image: url("/in/ipad/home/images/overview/icloud__dkgx54q92hg2_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-ipados .icloud .promo-image {
+        background-image:url("/in/ipad/home/images/overview/icloud__dkgx54q92hg2_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .section-ipados .icloud .promo-image {
+        background-image: url("/in/ipad/home/images/overview/icloud__dkgx54q92hg2_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+    .section-ipados .icloud .promo-image {
+        background-image:url("/in/ipad/home/images/overview/icloud__dkgx54q92hg2_small_2x.jpg")
+    }
+}
+
+.section-ipados .icloud .promo-image {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-ipados .icloud .promo-image {
+        margin-left:auto;
+        margin-right: auto;
+        left: auto;
+        right: auto;
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .section-ipados .icloud .promo-image {
+        margin-left: auto;
+        margin-right: auto;
+        left: auto;
+        right: auto;
+    }
+}
+
+
+/* new screens */
+
+.section-ipad-air .image-hero-ipad-air {
+    background-image: url("/in/ipad/home/images/overview/ipad_air__de99jh4astea_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .section-ipad-air .image-hero-ipad-air {
+        background-image:url("/in/ipad/home/images/overview/ipad_air__de99jh4astea_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-ipad-air .image-hero-ipad-air {
+        background-image: url("/in/ipad/home/images/overview/ipad_air__de99jh4astea_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-ipad-air .image-hero-ipad-air {
+        background-image:url("/in/ipad/home/images/overview/ipad_air__de99jh4astea_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .section-ipad-air .image-hero-ipad-air {
+        background-image: url("/in/ipad/home/images/overview/ipad_air__de99jh4astea_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+    .section-ipad-air .image-hero-ipad-air {
+        background-image:url("/in/ipad/home/images/overview/ipad_air__de99jh4astea_small_2x.jpg")
+    }
+}
+
+.section-ipad-10-2 .image-ipad-10-2 {
+    background-image: url("/in/ipad/home/images/overview/ipad_102__deqy1t6yaga6_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+   .section-ipad-10-2 .image-ipad-10-2{
+        background-image:url("/in/ipad/home/images/overview/ipad_102__deqy1t6yaga6_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-ipad-10-2 .image-ipad-10-2 {
+        background-image: url("/in/ipad/home/images/overview/ipad_102__deqy1t6yaga6_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+   .section-ipad-10-2 .image-ipad-10-2{
+        background-image:url("/in/ipad/home/images/overview/ipad_102__deqy1t6yaga6_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .section-ipad-10-2 .image-ipad-10-2 {
+        background-image: url("/in/ipad/home/images/overview/ipad_102__deqy1t6yaga6_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+   .section-ipad-10-2 .image-ipad-10-2 {
+        background-image:url("/in/ipad/home/images/overview/ipad_102__deqy1t6yaga6_small_2x.jpg")
+    }
+}
+
+.section-ipad-mini .image-ipad-mini{
+    background-image: url("/in/ipad/home/images/overview/ipad_mini__ebopny1hluwm_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .section-ipad-mini .image-ipad-mini {
+        background-image:url("/in/ipad/home/images/overview/ipad_mini__ebopny1hluwm_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-ipad-mini .image-ipad-mini {
+        background-image: url("/in/ipad/home/images/overview/ipad_mini__ebopny1hluwm_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-ipad-mini .image-ipad-mini {
+        background-image:url("/in/ipad/home/images/overview/ipad_mini__ebopny1hluwm_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .section-ipad-mini .image-ipad-mini {
+        background-image: url("/in/ipad/home/images/overview/ipad_mini__ebopny1hluwm_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+    .section-ipad-mini .image-ipad-mini {
+        background-image:url("/in/ipad/home/images/overview/ipad_mini__ebopny1hluwm_small_2x.jpg")
+    }
+}
+
+
+
+/* Refresh */
+/*
+.section-ipad-pro .avail {
+    margin-top: 435px;
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-ipad-pro .avail {
+        margin-top: 200px;
+        margin-bottom: 40px
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .section-ipad-pro .avail {
+        margin-top:19px;
+        margin-bottom: 0
+    }
+}*/
+
+.section-ipados .whyipad .promo-image {
+   
+    background-image: url("/in/ipad/home/images/overview/why_ipad__fyckwbl8w5u2_large.jpg");
+    
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .section-ipados .whyipad .promo-image {
+        background-image:url("/in/ipad/home/images/overview/why_ipad__fyckwbl8w5u2_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-ipados .whyipad .promo-image {
+       
+        background-image: url("/in/ipad/home/images/overview/why_ipad__fyckwbl8w5u2_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-ipados .whyipad .promo-image {
+        background-image:url("/in/ipad/home/images/overview/why_ipad__fyckwbl8w5u2_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .section-ipados .whyipad .promo-image {
+       
+        background-image: url("/in/ipad/home/images/overview/why_ipad__fyckwbl8w5u2_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+    .section-ipados .whyipad .promo-image {
+        background-image:url("/in/ipad/home/images/overview/why_ipad__fyckwbl8w5u2_small_2x.jpg")
+    }
+}
+
+
+
+
+.section-essentials .keyboard {
+    background-repeat: no-repeat;
+    background-image: url("/in/ipad/home/images/overview/smart_keyboard_folio__b8j0ydqvjq2q_large.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .section-essentials .keyboard {
+        background-image:url("/in/ipad/home/images/overview/smart_keyboard_folio__b8j0ydqvjq2q_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .section-essentials .keyboard {
+        background-repeat:no-repeat;
+        background-image: url("/in/ipad/home/images/overview/smart_keyboard_folio__b8j0ydqvjq2q_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-essentials .keyboard {
+        background-image:url("/in/ipad/home/images/overview/smart_keyboard_folio__b8j0ydqvjq2q_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .section-essentials .keyboard {
+        background-repeat:no-repeat;
+        background-image: url("/in/ipad/home/images/overview/smart_keyboard_folio__b8j0ydqvjq2q_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+    .section-essentials .keyboard {
+        background-image:url("/in/ipad/home/images/overview/smart_keyboard_folio__b8j0ydqvjq2q_small_2x.jpg")
+    }
+}
+
+.section-ipados .ipados .promo-image-wrapper .promo-image {
+    background-image: url("/in/ipad/home/images/overview/ipados__cghw8bcc1sr6_large.jpg");
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
+    .section-ipados .ipados .promo-image-wrapper .promo-image {
+        background-image: url("/in/ipad/home/images/overview/ipados__cghw8bcc1sr6_large_2x.jpg")
+    }
+}
+@media only screen and (max-width: 1068px) {
+    .section-ipados .ipados .promo-image-wrapper .promo-image {
+        background-image: url("/in/ipad/home/images/overview/ipados__cghw8bcc1sr6_medium.jpg")
+    }
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-ipados .ipados .promo-image-wrapper .promo-image {
+        background-image: url("/in/ipad/home/images/overview/ipados__cghw8bcc1sr6_medium_2x.jpg")
+    }
+}
+@media only screen and (max-width: 735px) {
+   .section-ipados .ipados .promo-image-wrapper .promo-image {
+        background-image: url("/in/ipad/home/images/overview/ipados__cghw8bcc1sr6_small.jpg")
+    }
+}
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+    .section-ipados .ipados .promo-image-wrapper .promo-image {
+        background-image: url("/in/ipad/home/images/overview/ipados__cghw8bcc1sr6_small_2x.jpg")
+    }
+}
+
+/* keep tv full width alt from /bd/ - was removed */
+.promo-section .banner-promo.apple-tv-plus {
+  background-color: #000;
+}
+
+.section-get-more .apple-tv-plus {
+  background-position-x: center;
+  background-position-y: bottom;
+  background-color: #000;
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-get-more .apple-tv-plus {
+    background-position-y: bottom;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-get-more .apple-tv-plus {
+    padding-bottom: 0; 
+    height: 490px;
+  }
+}
+
+.section-get-more .apple-tv-plus .promo-headline {
+  position: relative;
+  padding-bottom: 2px;
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-get-more .apple-tv-plus .promo-headline {
+    padding-bottom: 1px;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-get-more .apple-tv-plus .promo-headline {
+    padding-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-get-more .apple-tv-plus .promo-copy {
+    padding-top: 56px;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-get-more .apple-tv-plus .promo-copy {
+    padding-top: 45px;
+    padding-bottom: 260px;
+  }
+}
+
+.section-get-more .tv-multi-show .apple-tv-plus {
+  background-color: #111;
+  height: 599px;
+}
+
+html.text-zoom .section-get-more .tv-multi-show .apple-tv-plus {
+  height: auto;
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-get-more .tv-multi-show .apple-tv-plus {
+    height: 277px;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-get-more .tv-multi-show .apple-tv-plus {
+    background-size: 734px 282px;
+    background-repeat: no-repeat;
+    background-image: url("/in/ipad/home/images/overview/apple_tv_plus_tile__d9547avvpv42_small.jpg");
+    height: 489px;
+  }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .section-get-more .tv-multi-show .apple-tv-plus {
+    background-image: url("/in/ipad/home/images/overview/apple-tv/apple_tv_plus__d9jf24ei3bqu_small_2x.jpg");
+  }
+}
+
+.section-get-more .tv-multi-show .apple-tv-plus .promo-headline {
+  width: 93px;
+  height: 38px;
+  background-size: 93px 38px;
+  background-repeat: no-repeat;
+  background-image: url("/in/ipad/home/images/overview/apple_tv_plus_logo__gl5fy1egcgia_large.png");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .section-get-more .tv-multi-show .apple-tv-plus .promo-headline {
+    background-image: url("/in/ipad/home/images/overview/apple_tv_plus_logo__gl5fy1egcgia_large_2x.png");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-get-more .tv-multi-show .apple-tv-plus .promo-headline {
+    width: 64px;
+    height: 26px;
+    background-size: 64px 26px;
+    background-repeat: no-repeat;
+    background-image: url("/in/ipad/home/images/overview/apple_tv_plus_logo__gl5fy1egcgia_medium.png");
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .section-get-more .tv-multi-show .apple-tv-plus .promo-headline {
+    background-image: url("/in/ipad/home/images/overview/apple_tv_plus_logo__gl5fy1egcgia_medium_2x.png");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-get-more .tv-multi-show .apple-tv-plus .promo-headline {
+    position: relative;
+    left: 50%;
+    margin-left: -46.5px;
+  }
+}
+
+@media only screen and (max-width: 735px) and (max-width: 1068px) {
+  .section-get-more .tv-multi-show .apple-tv-plus .promo-headline {
+    left: 50%;
+    margin-left: -32px;
+  }
+}
+
+.section-get-more .tv-multi-show .apple-tv-plus .promo-image {
+  background-size: 992px 599px;
+  background-repeat: no-repeat;
+  background-image: url("/in/ipad/home/images/overview/apple-tv/apple_tv_plus__d9jf24ei3bqu_large.jpg");
+  width: auto;
+  height: 100%;
+  /*margin-left: -180px;*/
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx),
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .section-get-more .tv-multi-show .apple-tv-plus .promo-image {
+    background-image: url("/in/ipad/home/images/overview/apple-tv/apple_tv_plus__d9jf24ei3bqu_large_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-get-more .tv-multi-show .apple-tv-plus .promo-image {
+    width: 402px;
+    height: 277px;
+    background-size: 402px 277px;
+    background-repeat: no-repeat;
+    background-image: url("/in/ipad/home/images/overview/apple-tv/apple_tv_plus__d9jf24ei3bqu_medium.jpg");
+    margin-left: 28px;
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .section-get-more .tv-multi-show .apple-tv-plus .promo-image {
+    background-image: url("/in/ipad/home/images/overview/apple-tv/apple_tv_plus__d9jf24ei3bqu_medium_2x.jpg");
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-get-more .tv-multi-show .apple-tv-plus .promo-image {
+    background: none;
+    display: none;
+  }
+  
+}
+
+.section-get-more .tv-multi-show .apple-tv-plus .promo-subhead-alt {
+  font-size: 28px;
+  line-height: 1.14286;
+  font-weight: 600;
+  letter-spacing: 0.007em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-get-more .tv-multi-show .apple-tv-plus .promo-subhead-alt {
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  }
+}
+
+.section-get-more .tv-multi-show .apple-tv-plus .promo-subhead-alt {
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-get-more .tv-multi-show .apple-tv-plus .promo-subhead-alt {
+    margin-top: 19px;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-get-more .tv-multi-show .apple-tv-plus .promo-subhead-alt {
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.section-get-more .tv-multi-show .apple-tv-plus .promo-copy {
+  text-align: left;
+  padding-right: 0;
+  color: #fff;
+  min-width: 565px;
+  z-index: 1;
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-get-more .tv-multi-show .apple-tv-plus .promo-copy {
+    min-width: 300px;
+    padding-top: 0;
+    padding-left: 34px;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-get-more .tv-multi-show .apple-tv-plus .promo-copy {
+    margin-right: 0;
+    padding-top: 45px;
+    padding-left: 0;
+    text-align: center;
+  }
+}
+
+html.text-zoom .section-get-more .tv-multi-show .apple-tv-plus .promo-copy {
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+.section-get-more .tv-multi-show .apple-tv-plus .promo-copy .links-stacked li {
+  margin-left: 0;
+  margin-right: 22px;
+}
+
+@media only screen and (max-width: 1068px) {
+  .section-get-more
+    .tv-multi-show
+    .apple-tv-plus
+    .promo-copy
+    .links-stacked
+    li {
+    margin-right: 15px;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .section-get-more
+    .tv-multi-show
+    .apple-tv-plus
+    .promo-copy
+    .links-stacked
+    li {
+    margin-top: 0px;
+  }
+}
+
+.section-get-more
+  .tv-multi-show
+  .apple-tv-plus
+  .promo-copy
+  .links-stacked
+  li
+  .icon-copy,
+.section-get-more
+  .tv-multi-show
+  .apple-tv-plus
+  .promo-copy
+  .links-stacked
+  li
+  .icon-after {
+  color: #2997ff;
+}
+
+/* keep tv full width alt from /bd/ - was removed */
+
+.section-get-more .apple-one .promo-image {
+   
+    background-image: url("/in/ipad/home/images/overview/bundle__dcx98bi8r7o2_large.jpg");
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .section-get-more .apple-one .promo-image {
+        background-image: url("/in/ipad/home/images/overview/bundle__dcx98bi8r7o2_large_2x.jpg");
+    }
+}
+@media only screen and (max-width: 1068px) {
+    .section-get-more .apple-one .promo-image {
+       
+        background-image: url("/in/ipad/home/images/overview/bundle__dcx98bi8r7o2_medium.jpg");
+    }
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-get-more .apple-one .promo-image {
+        background-image: url("/in/ipad/home/images/overview/bundle__dcx98bi8r7o2_medium_2x.jpg");
+    }
+}
+@media only screen and (max-width: 734px) {
+    .section-get-more .apple-one .promo-image {
+      
+        background-image: url("/in/ipad/home/images/overview/bundle__dcx98bi8r7o2_small.jpg");
+    }
+}
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .section-get-more .apple-one .promo-image {
+        background-image: url("/in/ipad/home/images/overview/bundle__dcx98bi8r7o2_small_2x.jpg");
+    }
+}
+@media only screen and (max-width: 734px){
+    .links-stacked{
+        margin-top: -1px;
+    }
+    .section-get-more .tv-multi-show .apple-tv-plus .promo-copy .links-stacked li{
+        margin: 0 .5em;
+        margin-top: 0.4em;
+    }
+    .section-get-more .tv-multi-show .apple-tv-plus .promo-subhead-alt{
+        margin-top: 18px;
+    }
+}
+
+.section-essentials .airpods-engraving.airpods-engraving-alt {
+  padding-bottom: 295px;
+}
+@media only screen and (max-width: 1068px) {
+    .section-essentials .airpods-engraving.airpods-engraving-alt {
+      padding-bottom: 260px;
+    }
+}
+.section-essentials .airpods-engraving.airpods-engraving-alt .promo-image {
+    width: 675px;
+    height: 260px;
+    background-size: 675px 260px;
+    background-repeat: no-repeat;
+    background-image: url("/in/ipad/home/images/overview/ipad_airpods_engraving__chc3xbh11lsi_large.jpg");
+    position: relative;
+    left: 50%;
+    margin-left: -337.5px;
+    position: absolute;
+    bottom: 0
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 1.5dppx),
+(-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi) {
+    .section-essentials .airpods-engraving.airpods-engraving-alt .promo-image {
+        background-image: url("/in/ipad/home/images/overview/ipad_airpods_engraving__chc3xbh11lsi_large_2x.jpg")
+    }
+}
+@media only screen and (max-width: 1068px) {
+    .section-essentials .airpods-engraving.airpods-engraving-alt .promo-image {
+        width: 358px;
+        height: 220px;
+        background-size: 358px 220px;
+        background-repeat: no-repeat;
+        background-image: url("/in/ipad/home/images/overview/ipad_airpods_engraving__chc3xbh11lsi_medium.jpg");
+        background-position-y: -10px;
+    }
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .section-essentials .airpods-engraving.airpods-engraving-alt .promo-image {
+        background-image: url("/in/ipad/home/images/overview/ipad_airpods_engraving__chc3xbh11lsi_medium_2x.jpg")
+    }
+}
+@media only screen and (max-width: 734px) {
+    .section-essentials .airpods-engraving.airpods-engraving-alt .promo-image {
+        width: 680px;
+        height: 225px;
+        background-size: 680px 225px;
+        background-repeat: no-repeat;
+        background-image: url("/in/ipad/home/images/overview/ipad_airpods_engraving__chc3xbh11lsi_small.jpg");
+        background-position-y: 0px;
+        margin-bottom: 14px;
+    }
+}
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .section-essentials .airpods-engraving.airpods-engraving-alt .promo-image {
+        background-image: url("/in/ipad/home/images/overview/ipad_airpods_engraving__chc3xbh11lsi_small_2x.jpg")
+    }
+}
+@media only screen and (max-width: 1068px) {
+    .section-essentials .airpods-engraving.airpods-engraving-alt .promo-image {
+        left: 50%;
+        margin-left: -179px
+    }
+}
+@media only screen and (max-width: 734px) {
+    .section-essentials .airpods-engraving.airpods-engraving-alt .promo-image {
+        left: 50%;
+        margin-left: -342px;
+        max-width: initial;
+    }
+}
+@media only screen and (min-width: 735px) and (max-width: 1068px) {
+    .section-essentials .airpods-engraving.airpods-engraving-alt .promo-image {
+        padding-bottom: 8px
+    }
+}
+.section-essentials .airpods-sustain.airpods-engraving-alt .promo-copy {
+    padding-bottom: 0px;
+}
+
+.typography-body.availability {
+    width: 258px
+}
+@media only screen and (max-width: 735px) {
+    .typography-body.availability {
+        width: auto;
+    }
+}
+
